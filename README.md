@@ -1,4 +1,5 @@
-## 🧑‍💼 Mis datosAdd commentMore actions
+
+## 🧑‍💼 Mis datos
 - *Nombre:* Antonio Jose
 - *Apellido:* Araujo Pacheco
 - *Teléfono:* ‪+58424138-4511‬
@@ -16,3 +17,4 @@
 
 Realizar la siguiente imagen
 ![image](https://github.com/user-attachments/assets/3b7a3d1d-ceec-42e2-97ee-4b99190749d4)
+
