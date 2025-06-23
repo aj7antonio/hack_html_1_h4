@@ -1,0 +1,161 @@
+/*Variables*/
+:root{
+    --color_ORO:#B88940;
+    --color_AMA: #FFBD59;
+    --color_BLACK: #000000;
+}
+
+/*Clases para los bloques*/
+.div__container{
+    padding-block: 53px;
+    padding-bottom: 0;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__divider{
+    border: 1px solid var(--color_BLACK);
+    width: 55px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--color_BLACK);
+}
+
+.div__text-titleendofseason{    
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-size: 24px;
+    margin-top: 20px;
+    color: var(--color_BLACK);
+}
+
+.div__font-ruda {
+  font-family: "Ruda", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.div__font-catamaran {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.div__font-opensans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.div__text-titlesale{
+    text-transform: uppercase;
+    color: var(--color_ORO);
+    font-size: 75px;
+    letter-spacing: 14px;
+    transform: translate(8px);
+    margin-top:-8px;
+    text-align: center;
+}
+
+.div__text-ofert{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.div__text-description{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.div__text-fashion{
+    margin-top: 90px;
+    text-transform: uppercase;
+    color: var(--color_ORO);
+    font-size: 30px;
+    letter-spacing: 0.4px;
+    word-spacing: 4px;
+    transform: translate(-3px);
+}
+.div__text-subfashion{
+    font-weight: 700;
+    margin-top: -11px;
+    word-spacing: 2px;
+    transform: translate(-2.5px);
+}
+
+
+/*clases de tamanos*/
+.fw-600{
+
+    font-weight: 600;
+}
+.fw-800{
+
+    font-weight: 800;
+}
+
+/*clase para el manejo de imagenes*/
+.gallery-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 46.5vw;
+    margin-top: 85px;
+    height: fit-content;
+}
+
+.gallery-block__stripes-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1; 
+}
+
+.gallery-block__stripe {
+    height: 19px;
+    width: 100%;
+}
+
+.gallery-block__stripe:nth-child(even) {
+    background-color: var(--color_AMA); 
+}
+
+.gallery-block__content {
+    display: flex;
+    transform: translateX(2px);
+}
+
+.gallery-block__item {
+    margin-right: 6px; 
+}
+
+.gallery-block__item:last-child {
+    margin-right: 0;
+}
+
+.gallery-block__image {
+    height: 189px;
+    width: 127px;
+    object-fit: cover; 
+    display: block; 
+}
+
+.gallery-block__price {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0; 
+    padding: 0;
+    margin-top: -2px; 
+}
